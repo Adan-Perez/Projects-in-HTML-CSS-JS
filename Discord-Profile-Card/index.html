@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="http://fonts.cdnfonts.com/css/whitney-2" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Discord Profile Card</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <div
+                        style="background: url('./assets/img/banner_cyberpunk.gif')"
+                        class="banner-image"></div>
+                    <div class="infos">
+                        <div class="profil-logo">
+                            <img src="./assets/img/mikey_profile.jpg" />
+                            <div class="status-icon">
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <div class="badges-container">
+                            <div class="badge-item">
+                                <img
+                                    src="./assets/img/badges/developer.webp"
+                                    alt="Developer" />
+                                <div class="tooltip tooltip-up">Developer</div>
+                            </div>
+                            <div class="badge-item">
+                                <img
+                                    src="./assets/img/badges/bravery.webp"
+                                    alt="HypeSquad Bravery" />
+                                <div class="tooltip tooltip-up">
+                                    HypeSquad Bravery
+                                </div>
+                            </div>
+
+                            <div class="badge-item">
+                                <img
+                                    src="./assets/img/badges/github-mark-white.svg"
+                                    alt="Github Logo" />
+                                <div class="tooltip tooltip-up">Github</div>
+                            </div>
+
+                            <div class="badge-item">
+                                <img
+                                    src="./assets/img/badges/linkedin-logo.webp"
+                                    alt="Linkedin Logo" />
+                                <div class="tooltip tooltip-up">Linkedin</div>
+                            </div>
+                        </div>
+                        <div class="username">Adan<span>#Perez</span></div>
+                        <hr />
+                    </div>
+                </div>
+                <div class="card-content">
+                    <div class="about-me">
+                        <div class="category-title">Member since</div>
+                        <p>jan. 01, 2017</p>
+                    </div>
+
+                    <div class="roles">
+                        <div class="category-title">Developer stack</div>
+                        <div class="roles-list">
+                            <div
+                                class="role"
+                                onclick="window.open('https://github.com/stars/Adan-Perez/lists/javascript-node-js')">
+                                <div class="color" style="background: orange"></div>
+                                javascript
+                            </div>
+                            <div
+                                class="role"
+                                onclick="window.open('https://github.com/stars/Adan-Perez/lists/html-css')">
+                                <div class="color" style="background: violet"></div>
+                                html & css
+                            </div>
+                            <div
+                                class="role"
+                                onclick="window.open('https://github.com/stars/Adan-Perez/lists/javascript-node-js')">
+                                <div class="color" style="background: green"></div>
+                                node.js
+                            </div>
+                            <div
+                                class="role"
+                                onclick="window.open('https://github.com/stars/Adan-Perez/lists/vue-js')">
+                                <div class="color" style="background: yellow"></div>
+                                vue
+                            </div>
+                            <div
+                                class="role"
+                                onclick="window.open('https://github.com/stars/Adan-Perez/lists/typescript')">
+                                <div
+                                    class="color"
+                                    style="background: rgb(50, 205, 71)"></div>
+                                typescript
+                            </div>
+                            <div
+                                class="role"
+                                onclick="window.open('https://github.com/stars/Adan-Perez/lists/react')">
+                                <div
+                                    class="color"
+                                    style="background: turquoise"></div>
+                                react
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note">
+                        <div class="category-title">Note</div>
+                        <textarea placeholder="Click for add a note"></textarea>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <input type="text" placeholder="Send a message to @Adan-Perez" />
+                </div>
+            </div>
+        </div>
+
+        <script src="./assets/js/jquery-3.7.0.min.js"></script>
+        <script src="./assets/js/main.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
+    </body>
+</html>

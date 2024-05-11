@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(
+        rgba(41, 41, 41, 1) 0%,
+        rgba(41, 41, 41, 1) 50%,
+        rgba(0, 0, 0, 1) 100%
+    ) no-repeat center center fixed;
+}
+
+.heading-text {
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    background-color: rgb(164, 9, 9);
+    border-radius: 20px;
+    margin: 60px 20px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card:nth-child(2) {
+    background-color: rgb(28, 12, 133);
+}
+
+.card:nth-child(3) {
+    background-color: rgb(164, 102, 9);
+}
+
+.card:nth-child(4) {
+    background-color: rgb(74, 52, 118);
+}
+
+.card:nth-child(5) {
+    background-color: rgb(176, 176, 60);
+}
+
+.card:nth-child(6) {
+    background-color: rgb(9, 164, 12);
+}
+
+.card-image {
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: bottom;
+    transition: all 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Agregar transición de opacidad */
+}
+
+.card:hover .card-image {
+    left: 55%;
+    transform: scale(1.1);
+    opacity: 0.9; /* Cambiar la opacidad al hacer hover */
+}
+
+.card-content {
+    width: 100%;
+    max-width: 350px;
+    padding: 40px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(15px);
+}
+
+.card:hover .card-content {
+    opacity: 1;
+    transition-delay: 0.1s;
+    transform: translateX(0px);
+}
+
+.text {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.btn {
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.card:hover .hover-text {
+    opacity: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .container {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .card {
+        height: auto;
+        padding: 30px 10px;
+    }
+
+    .card-image {
+        position: relative;
+    }
+
+    .card:hover .card-image {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .card-content {
+        opacity: 1;
+        transform: translateX(0px);
+        padding: 10px 30px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .hover-text {
+        opacity: 0;
+    }
+}
