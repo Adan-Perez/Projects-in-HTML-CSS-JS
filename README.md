@@ -1,6 +1,6 @@
 ## Author(s)/Autor(es) 💻
 
-[Adan-Perez](https://github.com/Adan-Perez)
+Developed with ❤ by [Adan-Perez](https://github.com/Adan-Perez)
 
 <table>
   <tbody>
@@ -22,7 +22,7 @@
 
 ## Description 📝
 
-This repository contains a collection of projects developed with HTML, CSS and JavaScript. The projects are focused on animations and effects that can be applied to web pages.
+This repository contains a collection of projects developed with HTML, CSS and JavaScript. The projects are focused on animations and effects that can be applied to web pages. Inspired by online courses, tutorials and personal ideas.
 
 ---
 
@@ -34,13 +34,4 @@ This repository contains a collection of projects developed with HTML, CSS and J
 - [Image Animation](./Image-Animation/)
 - [Morphing Image On Hover](./Morphing-Image-On-Hover/)
 - [Scrolldown Progressbar](./Scrolldown-Progressbar/)
-
----
-
-Developed with ❤ by [Adan-Perez](https://github.com/Adan-Perez)
-
-<p align="center" style="width: 100%; height: 100%;">
-  <img src="https://storage.googleapis.com/sticker-prod/Wren242GEdiHYWm6ZGJp/5.png" alt="naruto-image">
-</p>
-
----
+- [Landing Reveal Animation](./Landing-Reveal-Animation/)

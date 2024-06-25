@@ -1,7 +1,9 @@
-# Discord Card Profile
+# Morphing Image On Hover
 
 > [!NOTE]
 > The images used in this project are downloaded from [Alphacoders](https://alphacoders.com/)
+
+---
 
 ## Author 💻
 
@@ -22,11 +24,3 @@ Developed with ❤ by [Adan-Perez](https://github.com/Adan-Perez)
     </tr> 
   </tbody> 
 </table>
-
----
-
-## Screenshot
-
-<div align="center">
-    <img src="https://i.imgur.com/IE7PSym.png" width="350px" alt="Discord Profile Card ">
-</div>
