@@ -36,6 +36,7 @@ This repository contains a collection of projects developed with HTML, CSS and J
 - [Scrolldown Progressbar](./Scrolldown-Progressbar/)
 - [Landing Reveal Animation](./Landing-Reveal-Animation/)
 - [Text To Speech](./Text-To-Speech/)
+- [Weather App](./Weather-App/)
 
 ---
 
