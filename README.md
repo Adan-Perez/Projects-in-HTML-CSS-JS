@@ -35,6 +35,7 @@ This repository contains a collection of projects developed with HTML, CSS and J
 - [Morphing Image On Hover](./Morphing-Image-On-Hover/)
 - [Scrolldown Progressbar](./Scrolldown-Progressbar/)
 - [Landing Reveal Animation](./Landing-Reveal-Animation/)
+- [Text To Speech](./Text-To-Speech/)
 
 ---
 
